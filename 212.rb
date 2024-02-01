@@ -14,7 +14,8 @@ p triple
 # The code below has a mistake in it. Run the code to see the error message,
 # then explain what the error message means and what would need to change to fix it.
 x = 10
-puts x + y
 y = x
+puts x + y
+
 
 # the y never got a variable since the code flow goes from top to bottom it hasnt read what the variable for y is yet.
