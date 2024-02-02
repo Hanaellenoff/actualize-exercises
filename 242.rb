@@ -8,4 +8,5 @@ pp qwerty
 # Use a variable to store a hash with two different words and their definitions.
 # Then add one more word with its definition and print the hash on one line.
 asdf = {"cash" => "money", "taxes" => "annoying"}
-asdf ["fish" => "animal that swims"]
+asdf << "fish" => "animal that swims"
+pp asdf
