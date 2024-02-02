@@ -10,3 +10,5 @@ pp qwerty
 asdf = {"cash" => "money", "taxes" => "annoying"}
 asdf << "fish" => "animal that swims"
 pp asdf
+# I accidently uploaded this before I was ready to 
+# I'll hopefully fix this tom 
