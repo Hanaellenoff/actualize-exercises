@@ -31,6 +31,8 @@ pp person.email
 # pp person.info
 pp person.hobbies = ["jogging"]
 
+# uhhh i think im stuck
+
 # QUESTION 2
 # The code below crashes when it is run.
 # First explain what the error message means, 
