@@ -4,7 +4,7 @@
 #     The person's email has the format: "firstname.lastname@gmail.com".
 # Add a method called info that returns a string that describes the person's hobbies 
 #     in a user-friendly format. Make sure it works no matter how many hobbies a person has! 
-#     (You'll need to use a loop!)
+# #     (You'll need to use a loop!)
 class Person
   def initialize(first_name, last_name, hair_color, hobbies)
     @first_name = first_name
@@ -12,26 +12,31 @@ class Person
     @hair_color = hair_color
     @hobbies = hobbies
   end
+
   def email 
     return @first_name + "." + @last_name + "@gmail.com"
   end 
-  while true
+  
+  def hobbies 
+    return @hobbies
+  end  
+
   def hobbies=(hobbies)
     @hobbies = hobbies
   end 
-  end
-  # def info
-  #   return @hobbies.join(", ")
-  # end 
+ 
+  def info
+    return @hobbies.join(", ")
+  end 
  
 end
 
 person = Person.new("Bob", "Jones", "pink", ["basketball", "chess", "phone tag"])
 pp person.email
-# pp person.info
-pp person.hobbies = ["jogging"]
+pp person.hobbies.push("jogging") 
+pp person.info
 
-# uhhh i think im stuck
+# I dont think I get the loop thing?
 
 # QUESTION 2
 # The code below crashes when it is run.
@@ -48,5 +53,7 @@ class Product
   end
 end
 
-product = Product.new("Table", 500, "Solid oak") # FIX THIS LINE
+product = Product.new({"name" => "Table", "price" => 500, "description" => "Solid oak"}) # FIX THIS LINE
 puts "The product's name is #{product.name}."
+
+# it has too many options to put into it, it was given 3 things but theres only 1 to put it into
