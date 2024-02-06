@@ -6,4 +6,11 @@ dogs = [
   { name: "Beethoven", breed: "Saint Bernard" }
 ]
 
-puts "hana"
+new_array = []
+index = 0
+while index < dogs.length
+ new_array.push(dogs[index][:name])
+ index = index + 1
+end
+
+p new_array
