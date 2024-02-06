@@ -10,4 +10,20 @@
 # The one catch: Don't use the "uniq" method available to arrays! (That would do this for you.)
 numbers = [4, 6, 1, 4, 2, 8, 3, 4, 1, 7]
 
+# call on each number in the array
+# index = 0
+# while index < numbers.length
+#   puts numbers[index]
+#   index = index + 1
+# end 
 
+# remove numbers from an array
+# index = 0
+# while index < numbers.length
+#   if numbers[index] < 5
+#     puts numbers[index]
+#   end 
+#   index = index + 1
+# end 
+
+# uh idk know what step to put next????
