@@ -11,15 +11,23 @@
 numerals = {1 => "I", 2 => "II", 3 => "III", 4 => "IV", 5 => "V", 6 => "VI", 7 => "VII", 8=> "VIII", 9=> "IX", 10=>"X"}
 
 # get an input from a user and turn it into an integer
+# puts "Enter a number:"
+# user = gets.chomp.to_i
+
+# write a conditinal
+ 
 puts "Enter a number:"
-user = gets.chomp.to_i
+input = gets.chomp.to_i
 
-# define a method to get the strings in the hash
-def roman_numeral(user, numerals)
-  if user < 11
-    return numerals[user]
-  end 
+# if input == 5
+#   puts numerals[5]
+# end
+
+# write a method to intake that 5
+def convert(input)
+  if input == 5
+   return numerals[5]
+  end
 end
-
-p roman_numeral(user, numerals)
-# uhh this one was actually hard for me to figure out how do i determine smaller steps i think im struggling w that....:(
+p convert(input) 
+# i got stuck on this
