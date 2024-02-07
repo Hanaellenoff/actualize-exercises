@@ -8,15 +8,18 @@
 # (You can see an example of all the rules here: https://byjus.com/maths/roman-numerals/#chart)
 
 
-numerals = {1 => "I", 2 => "II", 3 => "III", 4 => "IV", 5 => "V", 6 => "VI", 7 => "VII"}
+numerals = {1 => "I", 2 => "II", 3 => "III", 4 => "IV", 5 => "V", 6 => "VI", 7 => "VII", 8=> "VIII", 9=> "IX", 10=>"X"}
 
 # get an input from a user and turn it into an integer
+puts "Enter a number:"
 user = gets.chomp.to_i
-# p user
 
 # define a method to get the strings in the hash
-def roman_numeral
-  return numberals[user]
+def roman_numeral(user, numerals)
+  if user < 11
+    return numerals[user]
+  end 
 end
 
-p user.roman_numeral
+p roman_numeral(user, numerals)
+# uhh this one was actually hard for me to figure out how do i determine smaller steps i think im struggling w that....:(
