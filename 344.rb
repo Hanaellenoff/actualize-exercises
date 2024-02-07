@@ -22,7 +22,7 @@ input = gets.chomp.to_i
 #   puts "V"
 # end
 
-# write a method to intake that 5
+# write a method to intake a number and return the right letter
 def convert(input)
   if input == 5
    return "V"
