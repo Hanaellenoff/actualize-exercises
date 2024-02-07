@@ -8,7 +8,6 @@
 # (You can see an example of all the rules here: https://byjus.com/maths/roman-numerals/#chart)
 
 
-numerals = {1 => "I", 2 => "II", 3 => "III", 4 => "IV", 5 => "V", 6 => "VI", 7 => "VII", 8=> "VIII", 9=> "IX", 10=>"X"}
 
 # get an input from a user and turn it into an integer
 # puts "Enter a number:"
@@ -20,14 +19,16 @@ puts "Enter a number:"
 input = gets.chomp.to_i
 
 # if input == 5
-#   puts numerals[5]
+#   puts "V"
 # end
 
 # write a method to intake that 5
 def convert(input)
   if input == 5
-   return numerals[5]
+   return "V"
+  else 
+    return "I" * input
   end
 end
 p convert(input) 
-# i got stuck on this
+# idk how to make 4 "IV"
