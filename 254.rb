@@ -33,7 +33,7 @@ end
 
 person = Person.new("Bob", "Jones", "pink", ["basketball", "chess", "phone tag"])
 pp person.email
-pp person.hobbies.push("jogging") 
+person.hobbies.push("jogging") 
 pp person.info
 
 # I dont think I get the loop thing?
