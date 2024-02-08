@@ -6,8 +6,8 @@
 
 index = 0 
 while index <= 100
-puts index 
-index = index + 5
+  puts index 
+  index = index + 5
 end  
 
 # Were you able to easily solve the problem from memory? no
