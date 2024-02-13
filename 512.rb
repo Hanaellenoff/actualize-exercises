@@ -5,8 +5,10 @@
 
 def ppl(input_hash)
   new_age = input_hash[:age]
-  return new_age - 1
+  new_hash = new_age - 1
+  input_hash[:age] = new_hash
 end 
 
 person = { name: "Shawn", age: 25 }
-p ppl(person)
+p ppl(person) 
+p person
