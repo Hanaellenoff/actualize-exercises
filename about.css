@@ -1,4 +1,57 @@
 header {
+background-image: url(https://cdn.pixabay.com/photo/2015/12/15/09/04/banner-1093909_640.jpg);
+background-position: center top;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+line-height: 1.2;
+padding: 4em 1em;
+}
+header a {
+border: 1px solid aqua;
+border-radius: 2em;
+color: white;
+font-size: 0.6em;
+letter-spacing: 0.2em;
+padding: 1em 2em;
+text-transform: uppercase;
+text-decoration: none;
+transition-property: color, background;
+transition-duration: 200ms;
+}
 
-  
+header a:hover {
+  background: aqua;
+  color: white;
+}
+
+header h1 {
+color: black;
+font-size: 2.5em;
+font-weight: 300
+}
+body {
+  font-family: sans-serif;
+  color: cadetblue;
+  margin: 0;
+}
+  main {
+    max-width: 50em;
+    margin: 0 auto;
+    line-height-step: 1.5;
+    padding: 4em 1em 
+  }
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+  color: black;
+}
+a {
+color: blueviolet;
+}
+footer {
+  text-align: center;
+  background-color: hsla(194, 26%, 53%, 0.794); 
+  padding: 3em;
 }
